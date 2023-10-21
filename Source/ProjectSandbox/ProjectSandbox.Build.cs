@@ -10,7 +10,7 @@ public class ProjectSandbox : ModuleRules
 	
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 
-		PrivateDependencyModuleNames.AddRange(new string[] { "Json", "JsonUtilities", "HTTP" });
+		PrivateDependencyModuleNames.AddRange(new string[] { "Json", "JsonUtilities", "HTTP", "EnhancedInput" });
 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
